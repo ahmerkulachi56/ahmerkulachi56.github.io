@@ -62,6 +62,22 @@ nav ul{display:flex;gap:22px;list-style:none;padding:0}
 nav ul a{text-decoration:none;font-size:.95rem;font-weight:500;color:var(--muted)}
 nav ul a:hover{color:var(--blue)}
 
+nav ul .resume-nav{
+  display:inline-block;
+  padding:7px 14px;
+  border-radius:999px;
+  background:var(--blue);
+  color:#fff;
+  border:2px solid var(--blue);
+  font-weight:600;
+}
+nav ul .resume-nav:hover{
+  background:#173fd0;
+  border-color:#173fd0;
+  color:#fff;
+}
+
+
 /* hero */
 .hero{padding:72px 0 64px}
 .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
@@ -147,6 +163,7 @@ footer{text-align:center;color:var(--muted);font-size:.88rem;padding:32px 0 44px
   .links{flex-direction:row;flex-wrap:wrap}
   nav ul{gap:14px}
   nav ul li:nth-child(n+5){display:none}
+  nav ul li.resume-item{display:list-item}
   section{padding:60px 0}
 }
 @media(prefers-reduced-motion:reduce){
@@ -167,6 +184,7 @@ footer{text-align:center;color:var(--muted);font-size:.88rem;padding:32px 0 44px
       <li><a href="#skills">Skills</a></li>
       <li><a href="#background">Background</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li class="resume-item"><a class="resume-nav" href="Ahmer_Abbas_CV.pdf" download="Ahmer_Abbas_CV.pdf">My Resume</a></li>
     </ul>
   </div>
 </nav>
