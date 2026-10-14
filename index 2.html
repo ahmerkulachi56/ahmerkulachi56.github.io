@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmer Abbas | Data Analyst Portfolio – Business Data Analytics (Fintech)</title>
+<meta name="description" content="Ahmer Abbas is a Business Data Analytics (Fintech) student at COMSATS University Islamabad. Portfolio of SQL, Python and Power BI projects, dashboards and predictive models.">
+<meta name="author" content="Ahmer Abbas">
+<meta name="keywords" content="Ahmer Abbas, data analyst, Power BI, SQL, Python, fintech analytics, COMSATS Islamabad, portfolio">
+<meta name="robots" content="index, follow">
+<!-- TODO: replace with your real live URL after you publish -->
+<link rel="canonical" href="https://ahmerkulachi56.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ahmer Abbas | Data Analyst Portfolio">
+<meta property="og:description" content="SQL, Python and Power BI projects in fintech analytics.">
+<meta property="og:url" content="https://ahmerkulachi56.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230f2a43'/><rect x='20' y='50' width='14' height='30' fill='%2335d0a0'/><rect x='43' y='35' width='14' height='45' fill='%23fff'/><rect x='66' y='20' width='14' height='60' fill='%232457f5'/></svg>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ahmer Abbas",
+  "jobTitle": "Data Analyst (Business Data Analytics – Fintech)",
+  "email": "mailto:ahmarabbasdgk@gmail.com",
+  "url": "https://ahmerkulachi56.github.io/",
+  "address": { "@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "COMSATS University Islamabad" },
+  "knowsAbout": ["SQL", "Python", "Power BI", "Data Visualization", "Exploratory Data Analysis", "Predictive Modeling", "ETL", "NLP"],
+  "sameAs": ["https://github.com/ahmerkulachi56", "https://www.linkedin.com/in/ahmer-abbas-8319a02a2"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#f2f6fb; --card:#ffffff; --ink:#0f2a43; --muted:#51657a;
+  --line:#d6e0ec; --blue:#2457f5; --mint:#18b888; --deep:#0f2a43;
+  --head:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --body:'Instrument Sans','Segoe UI',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--head);line-height:1.1;letter-spacing:-.02em}
+h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:8px}
+.sub{color:var(--muted);max-width:60ch;margin-bottom:36px}
+section{padding:84px 0}
+
+/* nav */
+nav{position:sticky;top:0;z-index:10;background:rgba(242,246,251,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-family:var(--head);font-weight:800;text-decoration:none;font-size:1.15rem}
+nav ul{display:flex;gap:22px;list-style:none;padding:0}
+nav ul a{text-decoration:none;font-size:.95rem;font-weight:500;color:var(--muted)}
+nav ul a:hover{color:var(--blue)}
+
+/* hero */
+.hero{padding:72px 0 64px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,4.6rem);font-weight:800}
+.hero .role{font-family:var(--head);font-size:1.25rem;font-weight:500;color:var(--blue);margin:14px 0 18px}
+.hero p.lead{color:var(--muted);max-width:52ch;margin-bottom:28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:600;text-decoration:none;font-size:.97rem;border:2px solid var(--ink);transition:transform .15s,background .15s}
+.btn.primary{background:var(--ink);color:#fff}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+
+/* dashboard visual */
+.dash{background:var(--deep);color:#fff;border-radius:22px;padding:22px 22px 18px;box-shadow:0 24px 50px -24px rgba(15,42,67,.6)}
+.dash-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.dash-top b{font-family:var(--head);font-size:1.05rem}
+.dash-top span{font-size:.82rem;color:#9fb4c9}
+.kpis{display:flex;gap:10px;margin:12px 0 6px}
+.kpi{flex:1;background:rgba(255,255,255,.07);border-radius:12px;padding:10px 12px}
+.kpi strong{display:block;font-family:var(--head);font-size:1.5rem;color:var(--mint)}
+.kpi small{color:#b6c7d8;font-size:.78rem}
+.bar{transform-origin:bottom;transform-box:fill-box;animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.line{stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.4s .6s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+/* about */
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:48px}
+.about p+p{margin-top:14px}
+.facts{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.facts dt{font-weight:600;font-size:.9rem;color:var(--muted)}
+.facts dd{margin:0 0 14px}
+.facts dd:last-child{margin-bottom:0}
+
+/* highlights */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.stat b{display:block;font-family:var(--head);font-size:2.6rem;line-height:1;color:var(--blue)}
+.stat span{display:block;margin-top:10px;font-size:.95rem;color:var(--muted)}
+
+/* projects */
+.projects{display:grid;gap:20px}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;display:grid;grid-template-columns:1fr auto;gap:12px 28px}
+.proj h3{font-size:1.45rem;margin-bottom:4px}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;padding:3px 10px;border-radius:999px;background:#e4ecff;color:var(--blue);margin-bottom:10px}
+.tag.self{background:#dcf7ec;color:#0c7a58}
+.proj ul{padding-left:20px;color:var(--muted)}
+.proj li{margin-bottom:4px}
+.tools{margin-top:12px;font-size:.92rem}
+.tools b{font-weight:600}
+.links{display:flex;flex-direction:column;gap:10px;align-self:start}
+.links .btn{padding:9px 18px;font-size:.9rem;text-align:center;white-space:nowrap}
+.links .btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
+
+/* skills */
+.skillgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skillbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.skillbox h3{font-size:1.1rem;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none}
+.chips li{padding:5px 12px;border-radius:999px;background:var(--paper);border:1px solid var(--line);font-size:.9rem}
+
+/* experience / education */
+.timeline{display:grid;gap:16px}
+.item{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--mint);border-radius:14px;padding:20px 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.item h3{font-size:1.15rem}
+.item p{color:var(--muted);font-size:.97rem}
+.item time{color:var(--muted);font-size:.93rem;white-space:nowrap}
+
+/* contact */
+.contact{background:var(--deep);color:#fff;border-radius:24px;padding:56px 40px;text-align:center}
+.contact h2{color:#fff}
+.contact p{color:#b6c7d8;margin:0 auto 26px;max-width:46ch}
+.contact .btn{border-color:#fff;color:#fff}
+.contact .btn.primary{background:#fff;color:var(--ink)}
+.contact .btn.ghost:hover{background:#fff;color:var(--ink)}
+footer{text-align:center;color:var(--muted);font-size:.88rem;padding:32px 0 44px}
+
+@media(max-width:860px){
+  .hero .wrap,.about{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .skillgrid{grid-template-columns:1fr}
+  .proj{grid-template-columns:1fr}
+  .links{flex-direction:row;flex-wrap:wrap}
+  nav ul{gap:14px}
+  nav ul li:nth-child(n+5){display:none}
+  section{padding:60px 0}
+}
+@media(prefers-reduced-motion:reduce){
+  .bar,.line{animation:none;stroke-dashoffset:0}
+  html{scroll-behavior:auto}
+  .btn{transition:none}
+}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="logo" href="#top">Ahmer Abbas</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Ahmer Abbas</h1>
+      <p class="role">Data Analyst · Business Data Analytics (Fintech)</p>
+      <p class="lead">I clean data, build dashboards and train predictive models that help teams make better decisions. I work mainly with SQL, Python and Power BI.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View my projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="dash" role="img" aria-label="Illustration of a small analytics dashboard with a bar chart and trend line">
+      <div class="dash-top"><b>Fintech risk overview</b><span>sample visual</span></div>
+      <div class="kpis">
+        <div class="kpi"><strong>85%</strong><small>risk accuracy</small></div>
+        <div class="kpi"><strong>40%</strong><small>more engagement</small></div>
+        <div class="kpi"><strong>30%</strong><small>faster queries</small></div>
+      </div>
+      <svg viewBox="0 0 320 170" width="100%" aria-hidden="true">
+        <g stroke="#ffffff22"><line x1="0" y1="40" x2="320" y2="40"/><line x1="0" y1="80" x2="320" y2="80"/><line x1="0" y1="120" x2="320" y2="120"/></g>
+        <g fill="#2457f5">
+          <rect class="bar" style="animation-delay:.05s" x="14" y="100" width="30" height="50" rx="5"/>
+          <rect class="bar" style="animation-delay:.15s" x="62" y="80" width="30" height="70" rx="5"/>
+          <rect class="bar" style="animation-delay:.25s" x="110" y="90" width="30" height="60" rx="5"/>
+          <rect class="bar" style="animation-delay:.35s" x="158" y="58" width="30" height="92" rx="5"/>
+          <rect class="bar" style="animation-delay:.45s" x="206" y="46" width="30" height="104" rx="5"/>
+          <rect class="bar" style="animation-delay:.55s" x="254" y="24" width="30" height="126" rx="5"/>
+        </g>
+        <polyline class="line" fill="none" stroke="#35d0a0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" points="29,88 77,66 125,76 173,44 221,32 269,12"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about">
+    <div>
+      <h2>About me</h2>
+      <p>I'm a Business Data Analytics (Fintech) student at COMSATS University Islamabad. I enjoy turning raw, messy data into clear answers: writing SQL to pull what matters, cleaning it in Python, and presenting it in dashboards people actually use.</p>
+      <p>My work covers predictive modeling, ETL workflows, exploratory analysis and data visualization, with a focus on financial data and risk. I also help run workshops and technical talks to improve data literacy.</p>
+    </div>
+    <dl class="facts">
+      <dt>Based in</dt><dd>Islamabad, Pakistan</dd>
+      <dt>Studying</dt><dd>BS Business Data Analytics (Fintech)</dd>
+      <dt>Languages</dt><dd>Urdu (native), English (advanced)</dd>
+      <dt>Main tools</dt><dd>SQL, Python, Power BI, Excel</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="highlights" style="padding-top:0">
+  <div class="wrap">
+    <h2>Highlights</h2>
+    <p class="sub">Results from my analytics and community work.</p>
+    <div class="stats">
+      <div class="stat"><b>30%</b><span>less data processing time through optimized SQL queries</span></div>
+      <div class="stat"><b>40%</b><span>more dashboard engagement, supporting better decisions</span></div>
+      <div class="stat"><b>85%</b><span>accuracy identifying risks with predictive modeling</span></div>
+      <div class="stat"><b>100+</b><span>participants reached through data literacy workshops</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" style="padding-top:0">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p class="sub">Each project links to its code on GitHub.</p>
+    <div class="projects">
+
+      <article class="proj">
+        <div>
+          <span class="tag">Academic · Deep Learning</span>
+          <h3>Survival Prediction Model</h3>
+          <ul>
+            <li>Built a classification model to predict survivors vs. non-survivors from passenger data</li>
+            <li>Handled preprocessing and model training</li>
+            <li>Evaluated performance using accuracy and related metrics</li>
+          </ul>
+          <p class="tools"><b>Tools:</b> Python, Pandas, Scikit-learn, deep learning basics</p>
+        </div>
+        <div class="links">
+          <!-- TODO: paste your GitHub repo link in href, then delete aria-disabled -->
+          <a class="btn primary" href="https://github.com/ahmerkulachi56/survival-prediction-model" target="_blank" rel="noopener" aria-disabled="true">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div>
+          <span class="tag self">Self-directed · Visualization</span>
+          <h3>Data Visualization Project</h3>
+          <ul>
+            <li>Cleaned and validated datasets using Excel and Python</li>
+            <li>Built interactive dashboards in Power BI</li>
+            <li>Analyzed key performance metrics to generate insights</li>
+          </ul>
+          <p class="tools"><b>Tools:</b> Excel, Python, Power BI, data cleaning, data visualization</p>
+        </div>
+        <div class="links">
+          <a class="btn primary" href="https://github.com/ahmerkulachi56/data-visualization-project" target="_blank" rel="noopener" aria-disabled="true">View on GitHub</a>
+          <!-- Optional: add a published Power BI link and remove aria-disabled -->
+          <a class="btn ghost" href="#" target="_blank" rel="noopener" aria-disabled="true">Live dashboard</a>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div>
+          <span class="tag self">Self-directed · GenAI Analytics</span>
+          <h3>GenAI-Based Data Analytics Project</h3>
+          <ul>
+            <li>Performed exploratory data analysis using GenAI tools</li>
+            <li>Identified patterns and risk indicators in the data</li>
+            <li>Designed a basic predictive framework and wrote recommendations</li>
+          </ul>
+          <p class="tools"><b>Tools:</b> GenAI tools, EDA, analytical thinking, business insights</p>
+        </div>
+        <div class="links">
+          <a class="btn primary" href="https://github.com/ahmerkulachi56/genai-data-analytics" target="_blank" rel="noopener" aria-disabled="true">View on GitHub</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="padding-top:0">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <p class="sub">Tools I use and how I work.</p>
+    <div class="skillgrid">
+      <div class="skillbox"><h3>Technical</h3>
+        <ul class="chips"><li>SQL</li><li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>Power BI</li><li>Excel</li><li>ETL</li><li>EDA</li><li>NLP</li><li>Deep Learning</li><li>GenAI tools</li></ul></div>
+      <div class="skillbox"><h3>Professional</h3>
+        <ul class="chips"><li>Problem solving</li><li>Analytical thinking</li><li>Communication</li><li>Teamwork</li><li>Leadership</li><li>Time management</li><li>Adaptability</li><li>Proactiveness</li></ul></div>
+      <div class="skillbox"><h3>Languages</h3>
+        <ul class="chips"><li>Urdu · Native</li><li>English · Advanced</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="background" style="padding-top:0">
+  <div class="wrap">
+    <h2>Experience and education</h2>
+    <p class="sub">Where I've worked and studied.</p>
+    <div class="timeline">
+      <div class="item"><div><h3>Volunteer, Pakistan Bureau of Statistics</h3><p>Helped facilitate workshops, technical talks and coordination activities. Islamabad, Pakistan.</p></div><time>11/2025</time></div>
+      <div class="item"><div><h3>BS Business Data Analytics (Fintech)</h3><p>COMSATS University Islamabad, Pakistan.</p></div><time>09/2023 – Present</time></div>
+      <div class="item"><div><h3>F.S.C. Pre-Medical</h3><p>Government Post Graduate College Boys Taunsa, Pakistan.</p></div><time>08/2021 – 08/2023</time></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="contact">
+      <h2>Let's work together</h2>
+      <p>Have a data problem or an opportunity? Send me an email, I reply quickly.</p>
+      <div class="btns" style="justify-content:center">
+        <a class="btn primary" href="mailto:ahmarabbasdgk@gmail.com">Email me</a>
+        <!-- TODO: replace with your LinkedIn and GitHub profile links -->
+        <a class="btn ghost" href="https://www.linkedin.com/in/ahmer-abbas-8319a02a2" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/ahmerkulachi56" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="yr">2026</span> Ahmer Abbas · Business Data Analytics (Fintech), Islamabad, Pakistan</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
